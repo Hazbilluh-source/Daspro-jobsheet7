@@ -14,22 +14,23 @@ public class SiakadWhile15 {
                 System.out.println("Nilai tidak valid, masukkan lagi nilai yang valid !");
                 continue;
             }
-
-        }
-        if (Nilai > 80 && Nilai <= 100) {
-            System.out.println("Nilai mahasiswa ke-" + (i + i) + "adalah A");
+            if (Nilai > 80 && Nilai <= 100) {
+            System.out.println("Nilai mahasiswa ke-" + (i + 1) + "adalah A" + "Bagus, pertahankan nilainya");
 
         } else if (Nilai > 73 && Nilai <= 100) {
-            System.out.println("Nilai mahasiswa ke-" + (i + i) + "adalah B+");
+            System.out.println("Nilai mahasiswa ke-" + (i + 1) + "adalah B+");
 
         } else if (Nilai > 65 && Nilai <= 73) {
-            System.out.println("Nilai Mahasiswa ke-" + (i + i) + "adalah B");
+            System.out.println("Nilai Mahasiswa ke-" + (i + 1) + "adalah B");
 
         } else if (Nilai > 60 && Nilai <= 65) {
-            System.out.println("Nilai Mahasiswa ke-" + (i + i) + "adalah E");
+            System.out.println("Nilai Mahasiswa ke-" + (i + 1) + "adalah E");
 
         }
         i++;
+        sc.close();
+        }
+       
     }
 
 }

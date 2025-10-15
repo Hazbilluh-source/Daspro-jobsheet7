@@ -29,5 +29,5 @@ System.out.println("Jumlah Mahasiswa Lulus" + lulus++);
 System.out.println("Jumlah Mahasiswa tidak lulus" + tidakLulus++);
 
     }
-
+    
 }
