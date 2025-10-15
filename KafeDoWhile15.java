@@ -14,8 +14,8 @@ public class KafeDoWhile15 {
             System.out.println("Masukkan nama pelanggan (ketik `batal` untuk keluar)");
             namaPelanggan = sc.nextLine();
             if (namaPelanggan.equals("batal")) {
-            System.out.println("Transaksi dibatalkan.");
-            break;
+                System.out.println("Transaksi dibatalkan.");
+                break;
 
             }
             System.out.print("jumlah kopi");
@@ -25,8 +25,11 @@ public class KafeDoWhile15 {
             System.err.print("jumlah roti");
             roti = sc.nextInt();
             totalHarga = (kopi * hargaKopi) + (teh * hargaTeh) + (roti * hargaRoti);
-            
+
+            sc.nextLine();
+            System.out.println("Semua transaksi selesai" + totalHarga);
+
         } while (true);
-        System.out.println("Semua transaksi selesai");
+
     }
 }
